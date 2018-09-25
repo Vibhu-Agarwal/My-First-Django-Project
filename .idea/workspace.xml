@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63252213-85aa-45e7-89ad-ad88faad7b87" name="Default Changelist" comment="" />
+    <list default="true" id="63252213-85aa-45e7-89ad-ad88faad7b87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,34 +16,40 @@
     <session id="-2010823327">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="JavaScript-modules-diagram//home/vibhu/PycharmProjects/DjangoProjects/FirstProject" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="12" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="280" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/manage.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +68,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+              <folding>
+                <marker date="1537899238963" expanded="true" signature="86:91" ph="..." />
+                <marker date="1537899238963" expanded="true" signature="222:227" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/mysite/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="180">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -76,6 +108,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mysite/manage.py" />
+        <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/models.py" />
       </list>
     </option>
   </component>
@@ -122,6 +156,13 @@
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -161,17 +202,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3294702" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -179,11 +213,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3294702" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,9 +236,68 @@
     <entry file="file://$PROJECT_DIR$/mysite/mysite/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/vibhu/PycharmProjects/DjangoProjects/FirstProject">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/css/base.css</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/base.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/change_form.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/change_list.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/views/templates/default_urlconf.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/css/fonts.css</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/css/forms.css</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/login.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/registration/password_change_form.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/registration/password_reset_confirm.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/registration/password_reset_form.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/popup_response.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/prepopulated_fields_js.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/related_widget_wrapper.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/search_form.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;/home/vibhu/PycharmProjects/DjangoProjects/FirstProject/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;/home/vibhu/PycharmProjects/DjangoProjects/FirstProject/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;/home/vibhu/PycharmProjects/DjangoProjects/FirstProject/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;/home/vibhu/PycharmProjects/DjangoProjects/FirstProject/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;/home/vibhu/PycharmProjects/DjangoProjects/FirstProject/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;/home/vibhu/PycharmProjects/DjangoProjects/FirstProject/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js#jquery#179;</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html</node>
+            <node x="" y="">$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/css/widgets.css</node>
+            <node x="" y="">/static/admin/css/fonts.css</node>
+            <node x="" y="">compat/containerCss</node>
+            <node x="" y="">compat/dropdownCss</node>
+            <node x="" y="">compat/initSelection</node>
+            <node x="" y="">compat/inputData</node>
+            <node x="" y="">compat/query</node>
+            <node x="" y="">jquery</node>
+            <node x="" y="">path</node>
+            <node x="" y="">{% block stylesheet %}{% static</node>
+            <node x="" y="">{% block stylesheet_rtl %}{% static</node>
+            <node x="" y="">{% static</node>
+            <node x="" y="">{% static 'admin/img/icon-addlink.svg' %}</node>
+            <node x="" y="">{% static 'admin/img/icon-changelink.svg' %}</node>
+            <node x="" y="">{% static 'admin/img/icon-deletelink.svg' %}</node>
+            <node x="" y="">{% static 'admin/img/icon-viewlink.svg' %}</node>
+            <node x="" y="">{% static 'admin/js/cancel.js' %}</node>
+            <node x="" y="">{% static 'admin/js/change_form.js' %}</node>
+            <node x="" y="">{% url 'admin:jsi18n' %}</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8073027090694933" x="590.0" y="208.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/manage.py">
@@ -215,10 +314,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding>
+            <marker date="1537899238963" expanded="true" signature="86:91" ph="..." />
+            <marker date="1537899238963" expanded="true" signature="222:227" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
