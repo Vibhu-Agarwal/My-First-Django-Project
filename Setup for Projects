@@ -3,7 +3,7 @@ cd mysite
 python3 manage.py startapp polls
 python3 manage.py runserver
 
-In settings.py, in INSTALLED_APPS list add the app name
+In settings.py, in INSTALLED_APPS list, add the app name
 
 python3 manage.py makemigrations polls
 python3 manage.py migrate
