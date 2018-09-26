@@ -30,3 +30,15 @@ from .models import Question, Choice
 admin.site.register(Question)
 admin.site.register(Choice)
 -> Go to localhost:<port no>/admin
+
+Adding URLs in Django Application
+-->> Three Step Process <<--
+1) Add a urls.py file (just like in the mysite folder) in the individual
+   application's directory to specify the relative paths with respect to the
+   current application and also provide the routing function to run on visiting at
+   that url
+2) In urls.py in mysite folder, add the urls.py (from the individual applications)
+   to the urlpatterns using django.urls.include() and give the path for the
+   application's pages
+3) In views.py file, create routing functions for rendering pages of the application
+   using respective requests and response libraries of django
