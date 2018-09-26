@@ -1,0 +1,32 @@
+django admin startproject mysite
+cd mysite
+python3 manage.py startapp polls
+python3 manage.py runserver
+
+In settings.py, in INSTALLED_APPS list add the app name
+
+python3 manage.py makemigrations polls
+python3 manage.py migrate
+
+Populating My database:
+# Method1:
+-> python3 manage.py shell
+-> import django
+-> django.setup()
+-> from polls.models import Question, Choice
+Query:
+1) Question.objects.all()
+2) q = Question(params = values)
+   q.save()
+   q.choice_set.create(params = values)
+   q.save()
+
+#Method2:
+-> python3 manage.py createsuperuser
+-> in admin.py file of app
+
+from .models import Question, Choice
+
+admin.site.register(Question)
+admin.site.register(Choice)
+-> Go to localhost:<port no>/admin
