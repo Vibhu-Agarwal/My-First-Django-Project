@@ -1,12 +1,34 @@
-django admin startproject mysite
-cd mysite
-python3 manage.py startapp polls
-python3 manage.py runserver
+Quick Guide for Flask users who want to learn Django
 
+
+Creating a New Project
+-> django admin startproject mysite
+
+
+Creating components or individual apps inside the main project
+-> cd mysite
+-> python3 manage.py startapp polls
+
+
+Running the Django Application
+-> python3 manage.py runserver
+
+Get over with warnings:
 In settings.py, in INSTALLED_APPS list, add the app name
 
 python3 manage.py makemigrations polls
 python3 manage.py migrate
+
+
+
+Creating Tables in Database
+-> The tables are defined in the form of classes
+-> The thing is that we don't have to do it using some other libraries
+-> These classes are defined specifically in the models.py file of the application
+-> The models.py file import the models file from django.db and the classes inherit the
+   models.Model class to get the properties for the tables
+
+
 
 Populating My database:
 # Method1:
@@ -18,10 +40,11 @@ Query:
 1) Question.objects.all()
 2) q = Question(params = values)
    q.save()
-   q.choice_set.create(params = values)
+3) q.choice_set.create(params = values)
    q.save()
+4) Question.objects.get(pk = <id_number>)
 
-#Method2:
+#Method2 (preferred):
 -> python3 manage.py createsuperuser
 -> in admin.py file of app
 
@@ -31,7 +54,10 @@ admin.site.register(Question)
 admin.site.register(Choice)
 -> Go to localhost:<port no>/admin
 
+
+
 Adding URLs in Django Application
+Link: https://docs.djangoproject.com/en/2.1/topics/http/urls/
 -->> Three Step Process <<--
 1) Add a urls.py file (just like in the mysite folder) in the individual
    application's directory to specify the relative paths with respect to the
@@ -42,3 +68,40 @@ Adding URLs in Django Application
    application's pages
 3) In views.py file, create routing functions for rendering pages of the application
    using respective requests and response libraries of django
+
+
+
+Adding templates in Django
+Just like flask looks for templates in the static directory, django looks for templates
+in the templates directory of the application
+So to code the HTML files, the templates folder is to be made inside every application's
+directory
+-->> Thing to be taken care of <<--
+To avoid clash with any third party app's templates, make a folder with the same name
+as your application's name inside the templates folder
+Now in the views.py file ...
+
+#Method1:
+1) from django.template import loader
+2) load the template using this loader's get_template function
+3) define a context dictionary for passing in the variables and values to the templates
+4) pass in this dictionary and the request to the loaded template's render function
+5) Return it in the django.http.HttpResponse()
+
+#Method2 (preferred):
+1) from django.shortcuts import render
+2) define a context dictionary for passing in the variables and values to the templates
+2) return render(request, <template's location>, context)
+
+
+
+Shortcuts:
+->> django.shortcuts <<-
+
+--> get_object_or_404()
+It tries to get an object, if it gets then it's okay otherwise it raises a 404 error
+Example: Used in place of Question.objects.get() as get_object_or_404()
+
+--> get_list_or_404()
+Similar to the above function, just that it checks for empty list and used for
+filter query instead of get
