@@ -114,7 +114,7 @@ The url function inside the templates: to link to the routing function paths
 
 
 Namespace
--> To avoid the problem when we have the same template named files in different <-
+-> To avoid the problem when we have the same named template files in different <-
 ->                   applications of the same project                           <-
 
 Step #1: In the app's urls.py file, set the app_name variable to the app's name
