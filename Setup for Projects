@@ -105,3 +105,17 @@ Example: Used in place of Question.objects.get() as get_object_or_404()
 --> get_list_or_404()
 Similar to the above function, just that it checks for empty list and used for
 filter query instead of get
+
+
+
+The url function inside the templates: to link to the routing function paths
+{% url "<routing_func_name>" param1 param2 ...%}
+
+
+
+Namespace
+-> To avoid the problem when we have the same template named files in different <-
+->                   applications of the same project                           <-
+
+Step #1: In the app's urls.py file, set the app_name variable to the app's name
+Step #2: In the templates, deal with urls like "<application_name>:<routing_func_name>"

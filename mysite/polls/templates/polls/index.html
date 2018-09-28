@@ -9,7 +9,7 @@
     <ul>
     {% for question in questions %}
         <li>
-            <a href="/polls/{{question.id}}">
+            <a href="{% url "polls:detail" question.id %}">
                 {{question}}
             </a>
         </li>
