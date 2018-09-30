@@ -1,4 +1,5 @@
 Quick Guide for Flask users who want to learn Django
+Django Docs: https://docs.djangoproject.com/en/2.1/intro/
 
 
 Creating a New Project
@@ -109,7 +110,10 @@ filter query instead of get
 
 
 The url function inside the templates: to link to the routing function paths
-{% url "<routing_func_name>" param1 param2 ...%}
+{% url "<routing_func_name>" arg1 arg2 ...%}
+The same thing can be done inside the python scripts using the function
+django.urls.reverse()
+Ex. reverse("<routing_func_name>", args=(arg1, arg2, arg3, ...))
 
 
 
@@ -119,3 +123,9 @@ Namespace
 
 Step #1: In the app's urls.py file, set the app_name variable to the app's name
 Step #2: In the templates, deal with urls like "<application_name>:<routing_func_name>"
+
+
+
+Redirecting
+django.http.HttpResponseRedirect(<url>)
+Example: return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
