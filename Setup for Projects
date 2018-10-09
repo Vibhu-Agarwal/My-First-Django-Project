@@ -73,7 +73,7 @@ Link: https://docs.djangoproject.com/en/2.1/topics/http/urls/
 
 
 Adding templates in Django
-Just like flask looks for templates in the static directory, django looks for templates
+Just like flask looks for templates in the templates directory, django looks for templates
 in the templates directory of the application
 So to code the HTML files, the templates folder is to be made inside every application's
 directory
@@ -129,3 +129,30 @@ Step #2: In the templates, deal with urls like "<application_name>:<routing_func
 Redirecting
 django.http.HttpResponseRedirect(<url>)
 Example: return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
+
+
+Adding CSS files in Django App
+Just like flask you keep these files in the 'static' folder
+-> In the application folder create a new directory 'static' and in it,
+   create a new folder with the same name as the application's
+-> Put your CSS and JS files in this folder
+-> In HTML templates, add this line at top
+   {% load static %}
+-> Refer to the file in <link> tag as {% static 'polls/style.css' %}
+
+
+Adding an image to the App
+-> Add images in the 'images' folder inside the static folder of the application.
+->
+body
+{
+    background: url("images/back.jpg");
+}
+
+-->> Thing to be taken care of <<--
+You should always use relative paths to link your static files between each other,
+because then you can change STATIC_URL (used by the static template tag to generate its URLs)
+without having to modify a bunch of paths in your static files as well.
+
+
+
