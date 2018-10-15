@@ -12,7 +12,10 @@ Creating components or individual apps inside the main project
 
 
 Running the Django Application
--> python3 manage.py runserver
+-> python3 manage.py runserver <optional: port_number>
+Example:
+python3 manage.py runserver 0.8080
+(0 being a short-form of 0.0.0.0)
 
 Get over with warnings:
 In settings.py, in INSTALLED_APPS list, add the app name
